@@ -12,6 +12,6 @@ print(paste("Tu nombre es: ,", my_name,
 #documentacion
 https://fhernanb.github.io/Manual-de-R/funbas.html#qu%C3%A9-es-una-funci%C3%B3n-de-r
 
-
+https://www.tutorialspoint.com/r/r_data_frames.htm = data.frame
 https://r-coder.com/media-r/
 
