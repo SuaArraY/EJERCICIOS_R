@@ -28,8 +28,8 @@ orden <- function(vector){ #creacion de la funcion
         vector[i:(i+1)] <-vector[(i+1):i]
       }
     }
-   
-    variable = prod(vector_old==vector)  #compara el vector nuevo que se tiene con el vector q se ingreso, verdadero o falso
+    variable = prod(vector_old==vector)  #compara el vector nuevo que se tiene con el vector q se ingreso elemento por elemento, verdadero o falso
+                                          #TRUE FALSE FALSE FALSE = TRUE , compara vecto_old[1] ==vector[1] y asi sucesivamente
                                         #ahora gracias al prod si es prod(Verdadero) devuelve 1 y si es prod(false) devuelve 0 y asi 
                                         #asta q este ordenado los elementos del vector de menor a mayor
 
